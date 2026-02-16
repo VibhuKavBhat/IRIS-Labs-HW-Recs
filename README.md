@@ -21,7 +21,7 @@ Part B) I actually started off pretty decently w this. Decided to go with a line
 
 Also had to implement an async fifo because of the two different clock frequencies. The RTL was mainly creating 2 line buffer registers, dividing the 1024 pixels into columns and rows, and multiplying and accumulating with the kernel. I got stuck in debugging when I tried to view my output in python and the padding (or lack thereof) screwed it over (I think). Might have been due to synchronization issues too, didnt get enough of time to really sit and deep dive. 
 
-Part C) Didn't work on this, but have an Idea on what the terms are due to TOPS
+Part C) Didn't work on this, but have an idea on what the terms are due to TOPS
 
 
 
